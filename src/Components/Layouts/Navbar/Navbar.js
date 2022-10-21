@@ -15,7 +15,7 @@ export default function Navbar() {
 
         <ul className="ul-list">
           <li className="list-item">
-            <NavLink to={"/"}>Home</NavLink>
+            <NavLink to={"/Tamplets-With-React"}>Home</NavLink>
           </li>
           <li className="list-item">
             <NavLink to={"#"}>Work</NavLink>
@@ -30,7 +30,7 @@ export default function Navbar() {
             <NavLink to={"#"}>About</NavLink>
           </li>
           <li className="list-item">
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/Tamplets-With-React/contact">Contact</NavLink>
           </li>
         </ul>
       </div>

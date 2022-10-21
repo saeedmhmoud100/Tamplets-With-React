@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/Tamplets-With-React/" element={<Home />} />
+        <Route path="/Tamplets-With-React/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
