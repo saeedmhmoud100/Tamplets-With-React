@@ -8,7 +8,6 @@ export default function Work() {
     axios
       .get("js/data.json")
       .then(data => setData(Array.from(data.data.works)));
-    console.log(data);
   }, []);
   return (
     <div className="work">
@@ -23,6 +22,7 @@ export default function Work() {
               className={`part ${item.id === 1
                 ? "first"
                 : item.id === data.length ? "last" : ""}`}
+              key={item.id}
             >
               <i className={item.icon_name} />
               <h4 className="part-title">
