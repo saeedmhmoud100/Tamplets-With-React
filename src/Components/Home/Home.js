@@ -4,7 +4,6 @@ import Work from "./Work/Work";
 import Skilles from "./Skills/Skilles";
 import Portfolio from "./Portfolio/Portfolio";
 import About from "./About/About";
-import SocialMedia from "./SocialMedia/SocialMedia";
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
       <Portfolio />
       <Skilles />
       <About />
-      <SocialMedia />
     </div>
   );
 }

@@ -54,26 +54,6 @@
             "image": "/images/Portfolio/portfolio-img8.jpg"
         }
     ] ,
-    "social" : [
-        {
-            "id": 1,
-            "icon" : "icon fa fa-facebook fa-lg",
-            "title" : "Follow Me on",
-            "body" : "Social Facebook"
-        },
-        {
-            "id": 2,
-            "icon" : "icon fa fa-twitter fa-lg",
-            "title" : "Tweet Me on",
-            "body" : "Social twitter"
-        },
-        {
-            "id": 3,
-            "icon" : "icon fa fa-pinterest fa-lg",
-            "title" : "Pin Me on",
-            "body" : "Social Pinterest"
-        }
-    ]  ,
     "skilles" : [
         {
             "title":"Name",
@@ -104,5 +84,25 @@
         "title":"Creative Director",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim est <a href='#'>explicabo</a> maxime quibusdam quaerat nihil aliquid aperiam deleniti, repellendus dolorum. Possimus nisi cupiditate ad veritatis? </p> <p class='info-desc'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim est explicabo maxime quibusdam quaerat nihil aliquid aperiam deleniti, repellendus dolorum. Possimus nisi cupiditate ad veritatis?",
         "image": "../images/creative/about-bg.jpg"
-    }
+    } ,
+    "social" : [
+        {
+            "id": 1,
+            "icon" : "icon fa-brands fa-facebook fa-lg",
+            "title" : "Follow Me on",
+            "body" : "Social Facebook"
+        },
+        {
+            "id": 2,
+            "icon" : "icon fa-brands fa-twitter fa-lg",
+            "title" : "Tweet Me on",
+            "body" : "Social twitter"
+        },
+        {
+            "id": 3,
+            "icon" : "icon fa-brands fa-pinterest fa-lg",
+            "title" : "Pin Me on",
+            "body" : "Social Pinterest"
+        }
+    ] 
 }
