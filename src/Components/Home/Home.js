@@ -3,7 +3,7 @@ import Header from "./Header/Header";
 import Work from "./Work/Work";
 import Skilles from "./Skills/Skilles";
 import Portfolio from "./Portfolio/Portfolio";
-import Profile from "./Profile/Profile";
+import About from "./About/About";
 import SocialMedia from "./SocialMedia/SocialMedia";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <Work />
       <Portfolio />
       <Skilles />
-      <Profile />
+      <About />
       <SocialMedia />
     </div>
   );
