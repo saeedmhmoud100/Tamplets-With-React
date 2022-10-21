@@ -1,0 +1,72 @@
+.work {
+    height: auto;
+    padding: 50px 0;
+    overflow: hidden;
+    background: #fff
+}
+
+.work .work-title {
+    font-size: 60px; 
+}
+
+.work .work-title span {
+    font-weight: normal
+}
+
+.work .part {
+    margin-top: 20px;
+    width: 30%;
+    float: left;
+    height: auto;
+    padding: 100px 0;
+    border: 1px solid #888;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5%
+}
+
+.work .first {
+    margin-left: 0
+}
+
+.work .part .icon {
+    color: #888;
+    margin-bottom: 20px
+}
+
+.work .part .part-title {
+    font-size: 25px;
+    color: #eb5424;
+    margin-bottom: 20px
+}
+
+.work .part .line {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px
+}
+
+.work .part .part-desc {
+    font-size: 14px;
+    color: #888;
+    padding: 20px
+}
+
+@media (max-width: 575px) {
+    .work .part {
+        width: 100%;
+        float: none;
+        margin-left: 0
+        
+    }
+}
+
+@media (min-width: 576px )and (max-width:768px) {
+    .work .part {
+        width: 47%;
+    }
+    
+    .work .last {
+        margin-left: 0
+    }
+}

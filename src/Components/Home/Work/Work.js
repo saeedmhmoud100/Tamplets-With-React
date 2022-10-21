@@ -1,9 +1,41 @@
-import React from 'react'
-
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import "./work.css";
 export default function Work() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("js/data.json")
+      .then(data => setData(Array.from(data.data.works)));
+    console.log(data);
+  }, []);
   return (
-    <div>
-      Work
+    <div className="work">
+      <div className="container">
+        <h2 className="work-title">
+          <span>My</span> Work
+        </h2>
+
+        {data.map((item, i) => {
+          return (
+            <div
+              className={`part ${item.id === 1
+                ? "first"
+                : item.id === data.length ? "last" : ""}`}
+            >
+              <i className={item.icon_name} />
+              <h4 className="part-title">
+                {item.title}
+              </h4>
+              <hr className="line" />
+              <p className="part-desc">
+                {item.body}
+              </p>
+            </div>
+          );
+        })}
+      </div>
     </div>
-  )
+  );
 }
