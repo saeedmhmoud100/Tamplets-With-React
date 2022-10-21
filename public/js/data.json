@@ -73,5 +73,31 @@
             "title" : "Pin Me on",
             "body" : "Social Pinterest"
         }
+    ]  ,
+    "skilles" : [
+        {
+            "title":"Name",
+            "val": "Ahmed Mahmoud"
+        },
+        {
+            "title":"Birthday",
+            "val" : "21/4/2004"
+        },
+        {
+            "title":"Address",
+            "val" : "Giza"
+        },
+        {
+            "title":"Phone",
+            "val" : "4444 5555 6666"
+        },
+        {
+            "title":"Email",
+            "val" : "gmail@gmail.com"
+        },
+        {
+            "title":"Website",
+            "val" : "www.google.com"
+        }
     ] 
 }
