@@ -15,7 +15,7 @@ function Navbar() {
 
         <ul className="ul-list">
           <li className="list-item">
-            <NavLink to={"/Tamplets-With-React"}>Home</NavLink>
+            <NavLink to={"/Tamplets-With-React/"}>Home</NavLink>
           </li>
           <li className="list-item">
             <NavLink to={"#"}>Work</NavLink>

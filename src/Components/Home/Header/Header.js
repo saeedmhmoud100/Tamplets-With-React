@@ -2,7 +2,10 @@ import React, { memo } from "react";
 import "./header.css";
 function Header() {
   return (
-    <div className="home">
+    <div
+      className="home"
+      style={{ backgroundColor: `url("./images/Home/home-bg.jpg")` }}
+    >
       <div className="container">
         <div className="home-information">
           <h2 className="home-title margin-bottom">Home Title</h2>
@@ -19,4 +22,4 @@ function Header() {
   );
 }
 
-export default memo(Header)
+export default memo(Header);
