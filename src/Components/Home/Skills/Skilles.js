@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 import axios from "axios";
 import "./skilles.css";
-export default function Skilles() {
+function Skilles() {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
@@ -67,3 +67,5 @@ export default function Skilles() {
     </div>
   );
 }
+
+export default memo(Skilles)

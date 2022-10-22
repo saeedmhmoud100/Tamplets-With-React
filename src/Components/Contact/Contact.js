@@ -1,6 +1,6 @@
-import React from "react";
+import React, { memo } from "react";
 import "./contact.css";
-export default function Contact() {
+function Contact() {
   return (
     <div className="drop">
       <div className="container">
@@ -20,3 +20,6 @@ export default function Contact() {
     </div>
   );
 }
+
+
+export default memo(Contact)

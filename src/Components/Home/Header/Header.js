@@ -1,6 +1,6 @@
-import React from "react";
+import React, { memo } from "react";
 import "./header.css";
-export default function Header() {
+function Header() {
   return (
     <div className="home">
       <div className="container">
@@ -18,3 +18,5 @@ export default function Header() {
     </div>
   );
 }
+
+export default memo(Header)

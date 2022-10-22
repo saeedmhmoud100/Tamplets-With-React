@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 import "./portfolio.css";
 import axios from "axios";
 
-export default function Portfolio() {
+function Portfolio() {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
@@ -39,3 +39,5 @@ export default function Portfolio() {
     </div>
   );
 }
+
+export default memo(Portfolio)

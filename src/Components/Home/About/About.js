@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 import "./about.css";
 import axios from "axios";
-export default function About() {
+function About() {
   const [data, setData] = useState({});
 
   useEffect(() => {
@@ -30,3 +30,5 @@ export default function About() {
     </div>
   );
 }
+
+export default memo(About)

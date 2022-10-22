@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 import axios from "axios";
 import "./work.css";
-export default function Work() {
+function Work() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -39,3 +39,5 @@ export default function Work() {
     </div>
   );
 }
+
+export default memo(Work);

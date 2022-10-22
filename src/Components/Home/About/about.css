@@ -1,6 +1,6 @@
 .creative {
   height: 500px;
-  background: url("../../../../public/images/creative/about-bg.jpg");
+  background: url("./about-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
