@@ -4,7 +4,7 @@ function Header() {
   return (
     <div
       className="home"
-      style={{ backgroundColor: `url("./images/Home/home-bg.jpg")` }}
+      style={{ backgroundImage: `url("./images/Home/home-bg.jpg")` }}
     >
       <div className="container">
         <div className="home-information">
